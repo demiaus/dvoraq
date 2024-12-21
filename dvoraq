@@ -1,0 +1,75 @@
+partial alphanumeric_keys
+xkb_symbols "dvoraq" {
+
+    name[Group1]="Finnish (dvoraq)";
+
+    // Number row, LEFT
+    key <TLDE> { [  grave,           asciitilde,       dead_grave,            dead_tilde            ] };
+    key <AE01> { [  7,               exclam                                                         ] };
+    key <AE02> { [  5,               at                                                             ] };
+    key <AE03> { [  3,               numbersign,       EuroSign,              sterling              ] };
+    key <AE04> { [  1,               dollar                                                         ] };
+    key <AE05> { [  9,               percent,          U2030                                        ] };
+
+    // Number row, RIGHT
+    key <AE06> { [  8,               asciicircum                                                    ] };
+    key <AE07> { [  0,               ampersand                                                      ] };
+    key <AE08> { [  2,               asterisk                                                       ] };
+    key <AE09> { [  4,               parenleft                                                      ] };
+    key <AE10> { [  6,               parenright                                                     ] };
+    key <AE11> { [  bracketleft,     braceleft                                                      ] };
+    key <AE12> { [  bracketright,    braceright                                                     ] };
+
+    // Top row, LEFT
+    key <AD01> { [  apostrophe,      quotedbl,         dead_acute,            dead_doubleacute      ] };
+    key <AD02> { [  comma,           semicolon,        less,                  leftsinglequotemark   ] };
+    key <AD03> { [  period,          colon,            greater                                      ] };
+    key <AD04> { [  u,               U,                Greek_upsilon,         Greek_UPSILON         ] };
+    key <AD05> { [  y,               Y,                yen                                          ] };
+
+    // Top row, RIGHT
+    key <AD06> { [  f,               F,                Greek_phi,             Greek_PHI             ] };
+    key <AD07> { [  g,               G,                Greek_gamma,           Greek_GAMMA           ] };
+    key <AD08> { [  l,               L,                Greek_lambda,          Greek_LAMBDA          ] };
+    key <AD09> { [  r,               R,                Greek_rho,             Greek_RHO             ] };
+    key <AD10> { [  c,               C,                Greek_chi,             Greek_CHI             ] };
+    key <AD11> { [  slash,           question,         NoSymbol,              questiondown          ] };
+    key <AD12> { [  equal,           plus,             U00B1                                        ] };
+
+    // Home row, LEFT
+    key <AC01> { [  a,               A,                Greek_alpha,           Greek_ALPHA           ] };
+    key <AC02> { [  o,               O,                aring,                 Aring                 ] };
+    key <AC03> { [  e,               E,                Greek_epsilon,         Greek_EPSILON         ] };
+    key <AC04> { [  i,               I,                Greek_iota,            Greek_IOTA            ] };
+    key <AC05> { [  p,               P,                Greek_pi,              Greek_PI              ] };
+
+    // Home row, RIGHT
+    key <AC06> { [  d,               D,                Greek_delta,           Greek_DELTA           ] };
+    key <AC07> { [  h,               H,                Greek_eta,             Greek_ETA             ] };
+    key <AC08> { [  t,               T,                Greek_tau,             Greek_TAU             ] };
+    key <AC09> { [  n,               N,                Greek_nu,              Greek_NU              ] };
+    key <AC10> { [  s,               S,                Greek_sigma,           Greek_SIGMA           ] };
+    key <AC11> { [  minus,           underscore,       endash,                emdash                ] };
+    key <BKSL> { [  backslash,       bar,              dead_caron,            dead_breve            ] };
+
+    // Bottom row, LEFT
+    key <LSGT> { [  odiaeresis,      Odiaeresis,       dead_diaeresis,        dead_macron           ] };
+    key <AB01> { [  adiaeresis,      Adiaeresis,       ae,                    AE                    ] };
+    key <AB02> { [  q,               Q,                Greek_omega,           Greek_OMEGA           ] };
+    key <AB03> { [  j,               J,                notsign                                      ] };
+    key <AB04> { [  k,               K,                Greek_kappa,           Greek_KAPPA           ] };
+    key <AB05> { [  x,               X,                Greek_xi,              Greek_XI              ] };
+
+    // Bottom row, RIGHT
+    key <AB06> { [  b,               B,                Greek_beta,            Greek_BETA            ] };
+    key <AB07> { [  m,               M,                Greek_mu,              Greek_MU              ] };
+    key <AB08> { [  w,               W,                registered,            trademark             ] };
+    key <AB09> { [  v,               V,                copyright                                    ] };
+    key <AB10> { [  z,               Z,                Greek_zeta,            Greek_ZETA            ] };
+
+    key <CAPS> { [  Escape,          BackSpace                                                      ] };
+    key <SPCE> { [  space,           underscore,       space,                 nobreakspace          ] };
+
+    key <KPDL> { [  period,          comma                                                          ] };
+};
+
